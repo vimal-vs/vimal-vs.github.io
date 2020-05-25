@@ -1,0 +1,119 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Merienda';
+}
+
+header{
+  background: url(bg.jpg) no-repeat;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+
+#bar ul{
+  float: right;
+  list-style-type: none;
+  margin-top: 25px;
+}
+
+#bar ul li{
+  display: inline-block;
+  position: relative;
+}
+
+#bar ul li a{
+  text-decoration: none;
+  color: #fff;
+  padding: 7px 28px;
+  border: 1px solid #fff;
+}
+
+#bar ul li a:hover{
+  background-color: #fff;
+  color:#000;
+  transition: 0.6s ease;
+}
+
+#bar ul li.active a{
+  background-color: #fff;
+  color:#000;
+}
+
+#bar ul ul li{
+  display:block;
+}
+
+#bar ul ul li {
+  text-decoration: none;
+  color: #fff;
+  padding: 7px 28px;
+  border: 1px solid #fff;
+}
+
+#bar ul ul li:hover{
+  background-color: #fff;
+  color:#000;
+  transition: 0.6s ease;
+}
+
+#bar ul ul{
+  display: none;
+}
+
+#bar ul li:hover > ul{
+  display: block;
+  position: absolute ;
+  left: 0;
+  right: 0;
+  padding: inherit;
+  margin: 5.5px;
+}
+
+
+#home {
+  font-size: 28px;
+  font-family:"TEMPUS SANS ITC";
+  color:#fff;
+  width: 1100px;
+  height: 90px;
+  background: rgba(90, 83, 83, 0.479);
+  padding: 20px 20px;
+  border-radius: 10px;
+  position: absolute;
+  top: 90%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+
+#bar ul ul ul li{
+  display:block;
+}
+
+#bar ul ul ul li {
+  text-decoration: none;
+  color: #fff;
+  padding: 7px 28px;
+  border: 1px solid #fff;
+}
+
+#bar ul ul ul li:hover{
+  background-color: #fff;
+  color:#000;
+  transition: 0.6s ease;
+}
+
+#bar ul ul ul{
+  display: none;
+}
+
+#bar ul ul li:hover > ul{
+  display: inline-block;
+  left: 0;
+  right: 0;
+  padding: inherit;
+  margin: 5.5px;
+}
+
+
